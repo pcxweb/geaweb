@@ -1,0 +1,77 @@
+body{background-color: #fff}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:"楷体",'Source Serif Pro', serif; courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%;-webkit-tap-highlight-color: transparent;  }
+table { border-collapse:collapse; border-spacing:0; } 
+img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+.clearfix:before,.clearfix:after {  /*清楚浮动*/
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+
+/*底部导航*/
+#foot{
+	width: 100%;
+	position: fixed;
+	bottom:0px;
+	left:0;
+	height: 45px;
+	background-color: #ddd;
+	color: #666;
+	line-height: 45px;
+	text-align: center;
+	border-top:1px solid #ccc;
+}
+#foot>ul>li{
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	font-size: 16px
+}
+#foot>ul>li i{
+	color: #013a71;
+	font-size: 16px;
+}
+#foot>ul>li a{
+	color: #666;
+	text-decoration: none;
+}
+#foot .menu .menu-list{
+	position: absolute;
+	bottom:45px;
+	right: 0;
+	width: 50%;
+	text-align: center;
+	height: 139px;
+	background-color: #ddd;
+	display: none;
+}
+
+#foot .menu .menu-list li{
+	height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+#foot .menu .menu-list a{
+	text-decoration: none;
+}
+#foot .menu .menu-list li:hover  a{
+	color: #013a71;
+}

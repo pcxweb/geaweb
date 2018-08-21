@@ -1,0 +1,83 @@
+#head{
+	text-align: center;
+	font-family: "楷体";
+}
+#head .title p{
+	margin:15px 0 10px 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+#head .center-txt h2{
+	font-family: "微软雅黑";
+	color: #013a71;
+	/*font-weight: bold;*/
+	font-size: 30px;
+}
+#head .center-txt p{
+	color: #90cbf3;
+	font-size: 12px;
+	line-height: 12px;
+	margin-top: 10px;
+}
+/*内容部分*/
+#main{
+	margin-bottom: 30px;
+}
+#main h2{
+	text-align: center;
+	font-size: 20px;
+	margin:10px 0;
+	font-weight: bold;
+}
+#main h2 p{
+	margin:10px auto;
+	width: 25px;
+	height:2px;
+	background-color: #8f8f8f;
+	margin-bottom: 20px;
+}
+#main .con{
+	position: relative;
+	padding:10px 10px;
+	border:1px solid #2c9de9;
+	margin-bottom: 30px;
+}
+#main .con ul li{
+	float: left;
+	width: 32%;
+	margin:6px 0;
+}
+#main .con ul li.w30cen{
+	margin:6px 2%;
+}
+#main .con h2{
+	background-color: #fff;
+	color: #2c9de9;
+	position: absolute;
+	font-size: 14px;
+	left:50%;
+	top:-18px;
+	padding:0 20px;
+	margin-left: -65px;
+}
+#main #con15 h2{
+	margin-left:-88px;
+}
+#main #con16 h2{
+	margin-left:-80px;
+}
+#main .con h2 span{
+	position: absolute;
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background-color: #2c9de9;
+	top:3px;
+}
+#main .con h2 span:nth-child(1){
+	left:0;
+}
+#main .con h2 span:nth-child(2){
+	right:0;
+}
